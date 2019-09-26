@@ -16,8 +16,8 @@ penColor(0, 0, 0)
 
 brushColor(100, 100, 255)
 penColor('black')
-circle(528, 349, 35)
-circle(398 , 349, 35)
+changeCoords(circle(0,0,10), [(478, 364), (578, 334)])
+changeCoords(circle(0,0,10), [(348, 364), (448, 334)])
 brushColor('black')
 circle(528, 349, 10)
 circle(398 , 349, 10)
@@ -42,8 +42,8 @@ circle(870, 115, 40)
 
 penColor('black')
 brushColor('orange')
-polygon([(300, 629), (220, 629), (210, 539), (280, 489), (320, 549)])
-polygon([(700, 629), (620, 629), (610, 539), (680, 489), (720, 549)])
+circle(266, 567, 60)
+circle(666, 567, 60)
 
 brushColor('purple')
 polygon([(293,275), (336,219), (267,205)])
@@ -69,8 +69,8 @@ penColor(0, 0, 0)
 
 brushColor(191, 200, 183)
 penColor('black')
-circle(1328, 349, 35)
-circle(1198 , 349, 35)
+changeCoords(circle(0,0,10), [(1378, 364), (1278, 334)])
+changeCoords(circle(0,0,10), [(1148, 364), (1248, 334)])
 brushColor('black')
 circle(1328, 349, 10)
 circle(1198 , 349, 10)
@@ -95,8 +95,8 @@ circle(1670, 115, 40)
 
 penColor('black')
 brushColor('green')
-polygon([(1100, 629), (1020, 629), (1010, 539), (1080, 489), (1120, 549)])
-polygon([(1500, 629), (1420, 629), (1410, 539), (1480, 489), (1520, 549)])
+circle(1066, 567, 60)
+circle(1466, 567, 60)
 
 brushColor('yellow')
 polygon([(1093,275), (1136,219), (1067,205)])
@@ -112,7 +112,7 @@ polygon([(1408,235), (1444,289), (1474,218)])
 brushColor('black')
 
 
-label('PYTHON is REALLY AMAZING!', 00, 00, font=('Arial 32', 90, 'bold'), bg='green', foreground='black')
+label('COMMUNISM is REALLY AMAZING!', 00, 00, font=('Arial 32', 90, 'bold'), bg='red', foreground='black')
 
 run()
 

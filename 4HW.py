@@ -112,7 +112,7 @@ polygon([(1408,235), (1444,289), (1474,218)])
 brushColor('black')
 
 
-label('COMMUNISM is REALLY AMAZING!', 00, 00, font=('Arial 32', 90, 'bold'), bg='red', foreground='black')
+label('           COMMUNISM is REALLY AMAZING!           ', 00, 00, font=('Arial 32', 90, 'bold'), bg='red', foreground='black')
 
 run()
 
